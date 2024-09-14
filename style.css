@@ -1,0 +1,78 @@
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+      }
+      
+ul {
+    margin: 0px;
+}
+body > header {
+    background-color: orange;
+    color: white;
+    display: flex;
+    height: 12vh;
+    align-items: center;
+    justify-content: space-around;
+}
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+#nav-ul {
+    display: flex;
+}
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 5%;
+}
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+#main-content > div {
+    width: 70%;
+}
+form {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+body > footer {
+    background-color: orange;
+    display: flex;
+}
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+#footer-ul > div > li > a {
+    text-decoration: none;
+    color: white;
+}
+img {
+    border-radius: 10%;
+}
